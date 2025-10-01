@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ngovanhuy/Bong/C#/TelegramBotHbong/TelegramBotHbong.csproj": {}
+  },
+  "projects": {
+    "/Users/ngovanhuy/Bong/C#/TelegramBotHbong/TelegramBotHbong.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ngovanhuy/Bong/C#/TelegramBotHbong/TelegramBotHbong.csproj",
+        "projectName": "TelegramBotHbong",
+        "projectPath": "/Users/ngovanhuy/Bong/C#/TelegramBotHbong/TelegramBotHbong.csproj",
+        "packagesPath": "/Users/ngovanhuy/.nuget/packages/",
+        "outputPath": "/Users/ngovanhuy/Bong/C#/TelegramBotHbong/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ngovanhuy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
